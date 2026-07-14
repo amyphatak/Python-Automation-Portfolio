@@ -16,4 +16,11 @@ string = "Hello"
 print(string[:  : ])  #H,E,L,L,O
                         #0,1,2,3,4
 
+string = "Hello"
+reversed_string = ""
+for char in string:
+    reversed_string = char + reversed_string
+    print(reversed_string)
 
+string = "Hello"
+print(string[ : 6: ])
